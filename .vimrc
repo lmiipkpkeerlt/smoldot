@@ -1,7 +1,12 @@
+set ai
 set tabstop=4
 set shiftwidth=4
-set expandtab
-set ai
+
+" if tabs as spaces:
+"set expandtab
+" tabs not as spaces:
+set noexpandtab
+
 set number
 set mouse=a
 set hlsearch
