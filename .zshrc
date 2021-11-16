@@ -10,8 +10,8 @@ PROMPT='%F{green}%n%f@%F{green}%m%f %F{blue}%B%~%b%f %# '
 # Aliases
 alias ..="cd .."
 alias r="ranger"
-alias t="tree -C"
-alias td="tree -C -d"
+alias t="tree -C -L 2"
+alias td="tree -C -d -L 2"
 alias tl="tree -C -L"
 alias ls="ls -GCF"
 alias l="ls -GCF"
