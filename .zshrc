@@ -1,18 +1,14 @@
-export DOCKER_BUILDKIT=1
-
-export PATH="$PATH:$(go env GOPATH)/bin"
-
 # Colors
 PROMPT='%F{green}%n%f@%F{green}%m%f %F{blue}%B%~%b%f %# '
 
 
 # Aliases
 alias ..="cd .."
-alias r="ranger"
-alias t="tree -C -L 1"
-alias tt="tree -C -L 2"
-alias td="tree -C -d -L"
-alias tl="tree -C -L"
+#alias r="ranger"
+#alias t="tree -C -L 1"
+#alias tt="tree -C -L 2"
+#alias td="tree -C -d -L"
+#alias tl="tree -C -L"
 
 alias ls="ls -GCF"
 alias l="ls -GCF"
@@ -32,22 +28,4 @@ alias df="df -h"			# -h prints human readable format
 export EDITOR=/usr/bin/vim
 
 
-# postgreSQL
-export PATH=/Library/PostgreSQL/13/bin:$PATH
 
-
-# adb-fastboot stuff
-if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
- export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
-fi
-
-
-export PATH="/usr/local/sbin:$PATH"
-
-
-export PATH=$PATH:/opt/apache-maven/bin
-
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/mlip/.sdkman"
-[[ -s "/Users/mlip/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/mlip/.sdkman/bin/sdkman-init.sh"
