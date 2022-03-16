@@ -2,10 +2,13 @@ set ai
 set tabstop=4
 set shiftwidth=4
 
+" automatically insert line breaks at column X
+set tw=80
+
 " if tabs as spaces:
-"set expandtab
+set expandtab
 " tabs not as spaces:
-set noexpandtab
+"set noexpandtab
 
 set number
 set mouse=a
