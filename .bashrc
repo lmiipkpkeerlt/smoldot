@@ -5,15 +5,27 @@ export DOTNET_ROOT=/snap/dotnet-sdk/current
 # add /snap/bin to path
 export PATH="$PATH:/snap/bin"
 
-#aliases
+### aliases ###
+# update andn stuff
+alias updoot="sudo apt -y update && sudo apt -y upgrade"
+
+# python
+alias py="python3"
+alias pip="pip3"
+
+# ssh
+alias sshoff="sudo systemctl stop ssh"
+alias sshon="sudo systemctl start ssh"
+
+# random
 alias vi="vim"
 alias poweroff="systemctl shutdown"
 alias reboot="systemctl reboot"
 alias adog="git log --all --decorate --oneline --graph"
-alias py="python3"
 alias ..="cd .."
-alias t="tree -C -L 2"
-alias td="tree -C -d -L 2"
+alias t="tree -C -L 1"
+alias tt="tree -C -L 2"
+alias td="tree -C -d -L "
 alias tl="tree -C -L"
 alias r="ranger"
 alias open="xdg-open"
