@@ -3,6 +3,10 @@ PROMPT='%F{green}%n%f@%F{green}%m%f %F{blue}%B%~%b%f %# '
 
 
 ##### Aliases #####
+# tree
+alias t="tree -C -L 2"
+alias td="tree -C -d -L 2"
+
 # python
 alias py="python3"
 alias pip="pip3"
@@ -16,11 +20,6 @@ alias adog="git log --all --decorate --oneline --graph"
 
 # random
 alias r="ranger"
-#alias t="tree -C -L 1"
-#alias tt="tree -C -L 2"
-#alias td="tree -C -d -L"
-#alias tl="tree -C -L"
-
 alias poweroff="sudo shutdown -h now"
 alias reboot="sudo shutdown -r now"
 alias ..="cd .."
