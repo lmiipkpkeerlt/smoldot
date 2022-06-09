@@ -6,9 +6,6 @@ export DOTNET_ROOT=/snap/dotnet-sdk/current
 export PATH="$PATH:/snap/bin"
 
 ### aliases ###
-# update andn stuff
-alias updoot="sudo apt -y update && sudo apt -y upgrade"
-
 # python
 alias py="python3"
 alias pip="pip3"
@@ -28,6 +25,7 @@ alias td="tree -C -d -L 2"
 alias r="ranger"
 alias open="xdg-open"
 alias mv="mv -i"           # -i prompts before overwrite
+alias cp="cp -i"
 alias mkdir="mkdir -p"     # -p make parent dirs as needed
 alias df="df -h"           # -h prints human readable format
 
