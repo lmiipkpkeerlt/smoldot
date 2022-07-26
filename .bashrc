@@ -5,7 +5,6 @@ export DOTNET_ROOT=/snap/dotnet-sdk/current
 # add /snap/bin to path
 export PATH="$PATH:/snap/bin"
 
-### aliases ###
 # python
 alias py="python3"
 alias pip="pip3"
@@ -28,10 +27,6 @@ alias mv="mv -i"           # -i prompts before overwrite
 alias cp="cp -i"
 alias mkdir="mkdir -p"     # -p make parent dirs as needed
 alias df="df -h"           # -h prints human readable format
-
-# stupid fsi stuff
-alias fsharpi="dotnet fsi -r ~/bin/fsharp/FsLexYacc.Runtime.dll"
-
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
@@ -123,7 +118,7 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -l'
+alias ll='ls -lh'
 alias la='ls -l -A'
 alias l='ls -CF'
 
