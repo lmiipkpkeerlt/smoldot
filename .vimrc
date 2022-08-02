@@ -5,10 +5,8 @@ set shiftwidth=4
 " automatically insert line breaks at column X
 set tw=80
 
-" if tabs as spaces:
-set expandtab
-" tabs not as spaces:
-"set noexpandtab
+set expandtab       " tabs as spaces
+" set noexpandtab   " tabs not as spaces
 
 set number
 set mouse=a
@@ -17,7 +15,7 @@ set ruler
 set ignorecase
 set smartcase
 syntax on
-colo desert
+colo elflord
 
 
 
