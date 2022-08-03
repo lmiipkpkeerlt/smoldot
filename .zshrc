@@ -35,4 +35,6 @@ alias df="df -h"			# -h prints human readable format
 ### Text editor ###
 export EDITOR=/usr/bin/vim
 
+# java
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
 
