@@ -7,11 +7,10 @@ export PATH="$PATH:/snap/bin"
 
 # python
 alias py="python3"
-alias pip="pip3"
 
 # ssh
-alias sshoff="sudo systemctl stop ssh"
-alias sshon="sudo systemctl start ssh"
+alias sshoff="sudo systemctl stop sshd"
+alias sshon="sudo systemctl start sshd"
 
 # random
 alias vi="vim"
