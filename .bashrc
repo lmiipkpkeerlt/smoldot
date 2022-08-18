@@ -5,10 +5,15 @@ export DOTNET_ROOT=/snap/dotnet-sdk/current
 # add /snap/bin to path
 export PATH="$PATH:/snap/bin"
 
+# text editor 
+export EDITOR=/usr/bin/vim
+
 # aliases
+alias code="codium"
 alias vi="gvim -v"
 alias vim="gvim -v"
 alias py="python3"
+alias pip="pip3"
 alias sshoff="sudo systemctl stop sshd"
 alias sshon="sudo systemctl start sshd"
 alias poweroff="systemctl shutdown"
