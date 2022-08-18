@@ -3,6 +3,8 @@ PROMPT='%F{green}%n%f@%F{green}%m%f %F{blue}%B%~%b%f %# '
 
 
 ### Aliases ###
+alias updoot="brew update && brew upgrade && brew cleanup"
+
 # tree
 alias t="tree -C -L 2"
 alias td="tree -C -d -L 2"
