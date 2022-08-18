@@ -8,6 +8,7 @@ set tw=80
 set expandtab       " tabs as spaces
 " set noexpandtab   " tabs not as spaces
 
+set clipboard^=unnamed
 set number
 set mouse=a
 set hlsearch

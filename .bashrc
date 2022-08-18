@@ -13,7 +13,7 @@ alias sshoff="sudo systemctl stop sshd"
 alias sshon="sudo systemctl start sshd"
 
 # random
-alias vi="vim"
+alias vi="gvim -v"
 alias poweroff="systemctl shutdown"
 alias reboot="systemctl reboot"
 alias adog="git log --all --decorate --oneline --graph"
