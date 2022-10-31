@@ -26,6 +26,9 @@ alias cp="cp -i"
 alias mkdir="mkdir -p"		# -p makes parent dirs as needed
 alias df="df -h"			# -h prints human readable format
 
+# add custom bin to path
+export PATH="~/bin:$PATH"
+
 # java
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
 
