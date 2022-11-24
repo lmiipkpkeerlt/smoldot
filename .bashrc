@@ -5,6 +5,9 @@ export DOTNET_ROOT=/snap/dotnet-sdk/current
 # add /snap/bin to path
 export PATH="$PATH:/snap/bin"
 
+# add custom bin to path
+export PATH="~/bin:$PATH"
+
 # text editor 
 export EDITOR=/usr/bin/vim
 
