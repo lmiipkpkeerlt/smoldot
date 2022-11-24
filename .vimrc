@@ -1,5 +1,6 @@
 syntax on
-colo slate
+colo habamax
+highlight Normal ctermbg=black
 
 "automatically insert line breaks at column tw
 set tw=80
