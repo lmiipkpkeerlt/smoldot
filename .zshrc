@@ -15,8 +15,8 @@ alias sshon="sudo systemsetup -setremotelogin on"
 alias sshoff="sudo systemsetup -setremotelogin off"
 alias adog="git log --all --decorate --oneline --graph"
 alias r="ranger"
-alias poweroff="sudo shutdown -h now"
-alias reboot="sudo shutdown -r now"
+alias poweroff="shutdown -h now"
+alias reboot="shutdown -r now"
 alias ..="cd .."
 alias ls="ls -GCF"
 alias ll="ls -lh"
@@ -32,3 +32,5 @@ export PATH="/Users/mlip/bin:$PATH"
 # java
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
 
+# protobuf
+export PATH="$PATH:$(go env GOPATH)/bin"
