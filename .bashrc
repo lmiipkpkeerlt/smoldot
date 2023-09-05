@@ -1,36 +1,32 @@
-# add dotnet tools to path
-export PATH="$PATH:$HOME/.dotnet/tools/"
-export DOTNET_ROOT=/snap/dotnet-sdk/current
 
-# add /snap/bin to path
+# PATH VARIABLES
 export PATH="$PATH:/snap/bin"
-
-# add custom bin to path
 export PATH="~/bin:$PATH"
 
-# text editor 
+# DEFAULT EDITOR 
 export EDITOR=/usr/bin/vim
 
-# aliases
-alias code="codium"
-alias vi="gvim -v"
-alias vim="gvim -v"
-alias py="python3"
-alias pip="pip3"
+# ALIAS
+alias blon="sudo systemctl start bluetooth"
+alias bloff="sudo systemctl stop bluetooth"
 alias sshoff="sudo systemctl stop sshd"
 alias sshon="sudo systemctl start sshd"
-alias poweroff="systemctl shutdown"
-alias reboot="systemctl reboot"
+alias vi="vim"
+alias py="python3"
+alias pip="pip3"
 alias adog="git log --all --decorate --oneline --graph"
 alias ..="cd .."
 alias t="tree -C -L 2"
 alias td="tree -C -d -L 2"
-alias r="ranger"
 alias open="xdg-open"
 alias mv="mv -i"           # -i prompts before overwrite
 alias cp="cp -i"
 alias mkdir="mkdir -p"     # -p make parent dirs as needed
 alias df="df -h"           # -h prints human readable format
+
+setxkbmap -option "caps:swapescape"
+feh --bg-scale ~/Pictures/papes/wallpaper-black.jpg
+
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)

@@ -1,5 +1,5 @@
 syntax on
-colo habamax
+colo desert
 highlight Normal ctermbg=black
 
 "automatically insert line breaks at column tw
