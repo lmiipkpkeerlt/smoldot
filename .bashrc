@@ -12,7 +12,6 @@ export PATH="~/bin:$PATH"
 export EDITOR=/usr/bin/vim
 
 # aliases
-alias code="codium"
 alias vi="gvim -v"
 alias vim="gvim -v"
 alias py="python3"
