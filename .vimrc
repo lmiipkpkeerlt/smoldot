@@ -1,6 +1,7 @@
 syntax on
-colo desert
-highlight Normal ctermbg=black
+colo darkblue
+hi Normal ctermbg=black
+hi Visual ctermfg=blue ctermbg=white
 
 "automatically insert line breaks at column tw
 set tw=80
@@ -8,8 +9,8 @@ set tw=80
 set expandtab       "tabs as spaces
 "set noexpandtab    "tabs NOT as spaces
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set clipboard^=unnamed
 set mouse=a
 set ai
