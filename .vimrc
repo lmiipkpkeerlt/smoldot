@@ -1,6 +1,7 @@
 syntax on
 colo habamax
-highlight Normal ctermbg=black
+hi Normal ctermbg=black
+hi Visual ctermbg=blue ctermfg=white
 
 "automatically insert line breaks at column tw
 set tw=80
