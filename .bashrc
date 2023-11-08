@@ -1,8 +1,11 @@
+# add ~/.local/bin to path
+export PATH="$PATH:~/.local/bin"
+
 # add /snap/bin to path
 export PATH="$PATH:/snap/bin"
 
 # add custom bin to path
-export PATH="~/bin:$PATH"
+export PATH="$PATH:~/bin"
 
 # text editor 
 export EDITOR=/usr/bin/vim
