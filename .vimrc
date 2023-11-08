@@ -11,7 +11,7 @@ set expandtab       "tabs as spaces
 
 set tabstop=2
 set shiftwidth=2
-set clipboard^=unnamed
+set clipboard=unnamed
 set mouse=a
 set ai
 set number

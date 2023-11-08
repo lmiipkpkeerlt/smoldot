@@ -1,7 +1,3 @@
-# add dotnet tools to path
-export PATH="$PATH:$HOME/.dotnet/tools/"
-export DOTNET_ROOT=/snap/dotnet-sdk/current
-
 # add /snap/bin to path
 export PATH="$PATH:/snap/bin"
 
@@ -12,14 +8,12 @@ export PATH="~/bin:$PATH"
 export EDITOR=/usr/bin/vim
 
 # aliases
-alias vi="gvim -v"
-alias vim="gvim -v"
+alias vi="nvim"
+alias vim="nvim"
 alias py="python3"
 alias pip="pip3"
 alias sshoff="sudo systemctl stop sshd"
 alias sshon="sudo systemctl start sshd"
-alias poweroff="systemctl shutdown"
-alias reboot="systemctl reboot"
 alias adog="git log --all --decorate --oneline --graph"
 alias ..="cd .."
 alias t="tree -C -L 2"
@@ -30,6 +24,9 @@ alias mv="mv -i"           # -i prompts before overwrite
 alias cp="cp -i"
 alias mkdir="mkdir -p"     # -p make parent dirs as needed
 alias df="df -h"           # -h prints human readable format
+alias ll='ls -lh'
+alias la='ls -l -A'
+alias l='ls -CF'
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
@@ -119,11 +116,6 @@ fi
 
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-
-# some more ls aliases
-alias ll='ls -lh'
-alias la='ls -l -A'
-alias l='ls -CF'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
