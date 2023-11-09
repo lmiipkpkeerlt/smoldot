@@ -1,3 +1,6 @@
+# add brew python to path
+export PATH="/usr/local/opt/python@3.12/libexec/bin:$PATH"
+
 # add custom bin to path
 export PATH="/Users/mlip/bin:$PATH"
 
