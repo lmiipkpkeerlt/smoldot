@@ -1,4 +1,4 @@
-# add ~/.local/bin to path
+# python stuff on path
 export PATH="$PATH:~/.local/bin"
 
 # add /snap/bin to path
@@ -8,7 +8,7 @@ export PATH="$PATH:/snap/bin"
 export PATH="$PATH:~/bin"
 
 # text editor 
-export EDITOR=/usr/bin/vim
+export EDITOR=/usr/bin/nvim
 
 # aliases
 alias vi="nvim"
