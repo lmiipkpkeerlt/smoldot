@@ -1,14 +1,10 @@
-# python stuff on path
-export PATH="$PATH:~/.local/bin"
-
-# add /snap/bin to path
-export PATH="$PATH:/snap/bin"
-
-# add custom bin to path
-export PATH="$PATH:~/bin"
-
-# text editor 
+# environment variables
 export EDITOR=/usr/bin/nvim
+
+# add stuff to path 
+export PATH="$PATH:/snap/bin"     #snaps
+export PATH="$PATH:~/bin"         #home/bin
+export PATH="$PATH:~/.local/bin"  #python
 
 # aliases
 alias vi="nvim"
