@@ -1,14 +1,13 @@
 # environment variables
-export EDITOR=/usr/bin/nvim
+export EDITOR=/usr/bin/vim
 
 # add stuff to path 
 export PATH="$PATH:/snap/bin"     #snaps
 export PATH="$PATH:~/bin"         #home/bin
-export PATH="$PATH:~/.local/bin"  #python
+#export PATH="$PATH:~/.local/bin"  #python
 
 # aliases
-alias vi="nvim"
-alias vim="nvim"
+alias vi="vim"
 alias py="python3"
 alias pip="pip3"
 alias sshoff="sudo systemctl stop sshd"
