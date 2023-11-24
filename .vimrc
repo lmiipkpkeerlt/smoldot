@@ -1,6 +1,6 @@
 syntax on
 colo habamax
-hi Normal ctermbg=black
+hi Normal ctermbg=NONE
 hi Visual ctermbg=blue ctermfg=white
 hi StatusLine ctermbg=black ctermfg=grey
 
