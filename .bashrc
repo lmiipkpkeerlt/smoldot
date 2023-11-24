@@ -2,9 +2,8 @@
 export EDITOR=/usr/bin/vim
 
 # add stuff to path 
-export PATH="$PATH:/snap/bin"     #snaps
-export PATH="$PATH:~/bin"         #home/bin
-#export PATH="$PATH:~/.local/bin"  #python
+export PATH="$PATH:/snap/bin" #snaps
+export PATH="$PATH:~/bin"     #home/bin
 
 # aliases
 alias vi="vim"
@@ -16,8 +15,6 @@ alias adog="git log --all --decorate --oneline --graph"
 alias ..="cd .."
 alias t="tree -C -L 2"
 alias td="tree -C -d -L 2"
-alias r="ranger"
-alias open="xdg-open"
 alias mv="mv -i"           # -i prompts before overwrite
 alias cp="cp -i"
 alias mkdir="mkdir -p"     # -p make parent dirs as needed
