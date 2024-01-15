@@ -6,6 +6,7 @@ export PATH="$PATH:/snap/bin" #snaps
 export PATH="$PATH:~/bin"     #home/bin
 
 # aliases
+alias updoot="sudo apt -y update && sudo apt -y upgrade && sudo apt -y autoremove"
 alias vi="vim"
 alias py="python3"
 alias pip="pip3"
