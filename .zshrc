@@ -1,11 +1,5 @@
-# add brew python to path
-export PATH="/usr/local/opt/python@3.12/libexec/bin:$PATH"
-
-# add custom bin to path
+# path variables
 export PATH="/Users/mlip/bin:$PATH"
-
-# text editor 
-export EDITOR=/usr/bin/vim
 
 # aliases 
 alias vi="vim"
@@ -28,6 +22,11 @@ alias cp="cp -i"
 alias mkdir="mkdir -p"		# -p makes parent dirs as needed
 alias df="df -h"			# -h prints human readable format
 
+# add homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# text editor 
+export EDITOR=/usr/bin/vim
+
 # colors 
 PROMPT='%F{green}%n%f@%F{green}%m%f %F{blue}%B%~%b%f %# '
-
